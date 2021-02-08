@@ -2,7 +2,7 @@ let formCount = 0;
 var intervalArr = [];
 
 async function myRequest(url) {
-  const host = "http://localhost:8080";
+  const host = "https://ades-2b03.herokuapp.com";
   try {
     return await axios.get(host + url);
   } catch (err) {
@@ -186,7 +186,7 @@ function arrivalRate(i) {
     document.getElementById("loader" + trackerid).style.display = "block";
     var m = moment().add(-30, "s");
     console.log(
-      `http://localhost:8080/company/arrival_rate?queue_id=${queueid}&from=${m.toISOString(
+      `https://ades-2b03.herokuapp.com/company/arrival_rate?queue_id=${queueid}&from=${m.toISOString(
         m
       )}&duration=1`
     );
