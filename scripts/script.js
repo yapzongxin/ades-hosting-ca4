@@ -2,7 +2,7 @@ let formCount = 0;
 var intervalArr = [];
 
 async function myRequest(url) {
-  const host = "https://ades-2b03.herokuapp.com/";
+  const host = "https://ades-2b03.herokuapp.com";
   try {
     return await axios.get(host + url);
   } catch (err) {
