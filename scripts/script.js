@@ -186,7 +186,7 @@ function arrivalRate(i) {
     document.getElementById("loader" + trackerid).style.display = "block";
     var m = moment().add(-30, "s");
     console.log(
-      `https://ades-2b03.herokuapp.com/company/arrival_rate?queue_id=${queueid}&from=${m.toISOString(
+      `http://localhost:8080/company/arrival_rate?queue_id=${queueid}&from=${m.toISOString(
         m
       )}&duration=1`
     );
