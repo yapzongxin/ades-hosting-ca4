@@ -1,0 +1,89 @@
+html,
+body {
+  font-size: 0.9em;
+  background-color: white;
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: bold !important;
+}
+
+#logoImage img {
+  width: 70px;
+}
+
+#mainHeader {
+  background: rgb(53, 187, 196) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.headerBtn {
+  font-weight: bold !important;
+  width: 200px;
+  height: 40px;
+}
+.headerBtn:hover {
+  opacity: 0.7;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.col form {
+  color: black;
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.track-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#submitBtn {
+  width: 100%;
+  background-color: rgb(53, 187, 196);
+  border: solid 1px rgb(53, 187, 196);
+  color: white;
+  font-weight: bold;
+}
+
+#submitBtn:hover {
+  opacity: 0.8;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  align-items: center;
+}
+.form-group a {
+  font-size: 18px;
+  border-bottom: 1px solid white;
+  float: left;
+}
+.form-group input[type="text"] {
+  width: 100%;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  background-color: white;
+  font-weight: bold;
+}
+.form-group select {
+  width: 100%;
+  border: 1px solid gray;
+  background-color: white;
+  height: 30px;
+  font-weight: bold;
+}
+.form-group option {
+  font-weight: bold;
+}
+
+.tracking {
+  display: flex;
+  flex-direction: row;
+}
